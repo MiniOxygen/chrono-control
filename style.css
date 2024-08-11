@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+.timer {
+    font-size: 48px;
+    color: #333;
+}
+
+.status-chip {
+    padding: 5px 20px;
+    border-radius: 50px;
+    display: inline-flex;
+    margin: 5px;
+}
+
+.in-progress {
+    border: 1.5px solid #3a913f;
+    color: #3a913f;
+    outline: none;
+}
+
+.stopped {
+    border: 1.5px solid #c30000;
+    color: #c30000;
+    outline: none;
+}
